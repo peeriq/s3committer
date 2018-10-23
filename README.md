@@ -1,3 +1,8 @@
+# PeerIQ Foreword
+This repo has been forked and is used in `aqueduct/ExtractLettuceTomato` 
+to provide direct write to S3 capabilities to Spark. The test suite will fail for this build
+so it is recommended to build using the `gradle build -x test` command.
+
 # Iceberg
 
 **I currently recommend using Iceberg tables instead of using these committers**. Check out the [Netflix/iceberg](https://github.com/Netflix/iceberg) project for details.
